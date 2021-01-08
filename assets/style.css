@@ -1,5 +1,8 @@
 body{
+<<<<<<< HEAD
     min-width: 100%;
+=======
+>>>>>>> feature/cvpage
     background-image: url("./img/bg.png");
 }
 
@@ -96,4 +99,15 @@ body{
 
 .btn-purple:hover{
     background-color: #9E6BFE;
+}
+.col-3 img{
+    width: 80%;
+}
+
+.CV{
+    margin-top: 5%;
+}
+
+.row-CV{
+    margin-top: 5%;
 }
