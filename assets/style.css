@@ -40,10 +40,14 @@ body{
     font-family: 'Covered By Your Grace', cursive;
 }
 
-.carousel-img{
-    width: 100%;
+.col-3 img{
+    width: 80%;
 }
 
-.item img{
-    text-align: center;
+.CV{
+    margin-top: 5%;
+}
+
+.row-CV{
+    margin-top: 5%;
 }
