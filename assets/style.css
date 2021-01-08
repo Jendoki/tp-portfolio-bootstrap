@@ -1,0 +1,33 @@
+.bg-purple {
+    background-color: #4e00a3;
+}
+
+.bg-lightpurple {
+    background-color: #9e6bff;
+    color: white;
+}
+
+.jumbotron{
+    text-align: center;
+}
+
+.jumbotron h1, h3{
+    margin: auto;
+}
+
+.screen-size{
+    height: 100vh;
+}
+
+.container .avatar{
+    width: 100%;
+    padding-top: 10%;
+}
+
+.center{
+    text-align: center;
+}
+
+.col-8 h2{
+    padding-top: 10%;
+}
