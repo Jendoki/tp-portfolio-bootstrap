@@ -16,7 +16,7 @@
 }
 
 .screen-size{
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .container .avatar{
@@ -34,4 +34,12 @@
 
 .covered-by-your-grace{
     font-family: 'Covered By Your Grace', cursive;
+}
+
+.carousel-img{
+    width: 100%;
+}
+
+.item img{
+    text-align: center;
 }
