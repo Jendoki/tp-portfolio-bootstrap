@@ -1,0 +1,114 @@
+body{
+    min-width: 100%;
+    background-image: url("./img/bg.png");
+}
+
+.bg-purple {
+    background-color: #4e00a3;
+}
+
+.bg-lightpurple {
+    background-color: #9e6bff;
+    color: white;
+}
+
+.jumbotron{
+    text-align: center;
+}
+
+.jumbotron h1, h3{
+    margin: auto;
+}
+
+.screen-size{
+    min-height: 100vh;
+}
+
+.container .avatar{
+    width: 100%;
+    padding-top: 10%;
+}
+
+.avatar:hover{
+    
+}
+
+.center{
+    text-align: center;
+}
+
+.col-8 h2{
+    padding-top: 10%;
+}
+
+.covered-by-your-grace{
+    font-family: 'Covered By Your Grace', cursive;
+}
+
+.title{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.caption{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 20px;
+}
+
+.screenshot{
+    width: 100%;
+}
+
+.top{
+    font-size: 80px;
+    color: #4e00a3;
+    margin-bottom: 2%;
+    margin-bottom: 15%;
+}
+
+.top:hover{
+    color: white;
+}
+
+.content{
+    margin-top: 5%;
+}
+
+.mycard{
+    margin: auto;
+    background-color: rgba(255,255,255, 0.4);
+}
+
+.card-header{
+    background-color: #9E6BFE;
+}
+
+.card-body{
+    align-content: start;
+}
+
+#email, #message{
+    min-width: 60%;
+    width: auto;
+}
+
+.btn-purple {
+    background-color: #4e00a3;
+    color: white;
+}
+
+.btn-purple:hover{
+    background-color: #9E6BFE;
+}
+.col-3 img{
+    width: 80%;
+}
+
+.CV{
+    margin-top: 5%;
+}
+
+.row-CV{
+    margin-top: 5%;
+}
