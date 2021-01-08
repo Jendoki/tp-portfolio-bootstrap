@@ -10,6 +10,18 @@
     <script src="https://kit.fontawesome.com/b280947523.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
+    <script>
+        function onHover(){
+            var img = document.getElementsByClassName("avatar");
+            console.log(img);
+            img[0].setAttribute("src", "assets/img/100365_GF5fBhrP.png");
+        }
+        
+        function offHover(){
+            var img = document.getElementsByClassName("avatar");
+            img[0].setAttribute("src", "assets/img/100365_WHosEkV4.png");
+        }
+        </script>
 </head>
 
 <body>
@@ -76,7 +88,8 @@
                 <div class="row">
                     <div class="col-4"></div>
                     <div class="col-4 center">
-                        <img class="avatar" src="assets/img/100365_WHosEkV4.png" alt="avatar">
+                        <img onmouseover="onHover();" 
+                        onmouseout="offHover();" class="avatar" src="assets/img/100365_WHosEkV4.png" alt="avatar">
                     </div>
                     <div class="col-4"></div>
                 </div>
